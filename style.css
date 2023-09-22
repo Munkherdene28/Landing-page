@@ -1,0 +1,332 @@
+.section {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    background-color: #F4F4F4;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 98px;
+    letter-spacing: 0em;
+    text-align: center;
+    flex-direction: column;
+}
+
+* {
+    margin: 0%;
+    margin-top: 0%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+}
+
+h3 {
+    width: 358px;
+    height: 160px;
+    top: 1050px;
+    left: 120px;
+}
+
+.section2 {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    flex-direction: row;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 650px;
+}
+
+.text2 {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.lists {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.list {
+    display: flex;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+    justify-content: space-between;
+    width: 400px;
+    height: 50px;
+    padding-left: 100px;
+    gap: 10px;
+    margin-left: 120px;
+}
+
+.list:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.words {
+    display: flex;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px;
+    justify-content: space-between;
+    width: 400px;
+    height: 50px;
+    padding-left: 100px;
+    gap: 32px;
+
+}
+
+.text2 {
+    width: 358px;
+    height: 160px;
+    top: 1050px;
+    left: 120px;
+    flex-direction: row;
+    margin-left: 120px;
+}
+
+.picture {
+    width: 720px;
+    height: 1024px;
+    top: 1024px;
+    left: 720px;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+}
+
+.texte {
+    width: 299px;
+    height: 118px;
+    top: 2190px;
+    left: 582px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.one {
+    width: 308px;
+    height: 320px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px;
+    gap: 80px;
+    background-color: white;
+    border: black;
+    border-radius: 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.two {
+    width: 308px;
+    height: 320px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px;
+    gap: 80px;
+    background-color: white;
+    border: black;
+    border-radius: 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer {
+    background-color: #171717;
+    color: white;
+    text-align: center;
+    height: 200px;
+    padding: 40px 0;
+
+}
+
+.last {
+    width: 100vw;
+    height: 150px;
+    background-color: #101010;
+    display: flex;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1600px;
+    gap: 12px;
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.empty-image {
+    background-image: url(./image\ 29.png);
+    position: absolute;
+    width: 720px;
+    height: 1024px;
+    top: 0%;
+    right: 8%;
+}
+
+#list2:hover~.empty-image {
+    background-image: url(./image\ 30.png);
+}
+
+#list3:hover~.empty-image {
+    background-image: url(./image\ 31.png);
+}
+
+#list4:hover~.empty-image {
+    background-image: url(./image\ 32.png);
+}
+
+#list5:hover~.empty-image {
+    background-image: url(./image\ 33.png);
+}
+
+#list6:hover~.empty-image {
+    background-image: url(./image\ 29.png);
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+
+    }
+
+    #card1 {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 149px;
+        height: 149px;
+        gap: 12px;
+    }
+
+    #card2 {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 149px;
+        height: 149px;
+        gap: 12px;
+    }
+
+    .empty-image {
+        display: none;
+    }
+    .picture{
+        display: none;
+    }
+
+    .text {
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 59px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    #pine {
+        width: 100%;
+        height: 58px;
+    }
+
+    .section2 {
+        display: flex;
+    }
+
+    #tours {
+        font-size: 32px;
+    }
+
+    .test {
+        margin-left: 10px;
+    }
+
+    .text2 {
+        margin-left: 10px;
+        font-size: 30px;
+
+    }
+
+    .list {
+        margin-left: 10px;
+    }
+
+    .list {
+        width: 312px;
+        height: 65px;
+        padding: 10px;
+        justify-content: space-between;
+        top: 996px;
+        left: 30px;
+    }
+
+    .table {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer {
+        margin-left: none;
+    }
+
+    .last {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #write {
+        font-size: 32px;
+    }
+
+    .icon {
+        margin-left: 50px;
+        flex-direction: column;
+        width: 100px;
+        height: 100px;
+    }
+}
